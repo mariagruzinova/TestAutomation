@@ -11,6 +11,7 @@ public class LoginPage extends BasePage {
     private final By passwordField = By.id("password");
     private final By loginButton = By.id("login-button");
     private final By passwordError = By.xpath("//*[contains(text(), 'Epic sadface')]");
+//    private final By test = By.cssSelector("input[type ='username']");
 
 
     public LoginPage(WebDriver driver) {

@@ -25,6 +25,15 @@ dependencies {
 
     // Jackson
     testImplementation("com.fasterxml.jackson.core:jackson-databind:2.18.2")
+
+    // Lombok
+    testImplementation("org.testng:testng:7.11.0")
+
+    compileOnly("org.projectlombok:lombok:1.18.42")
+    annotationProcessor("org.projectlombok:lombok:1.18.42")
+
+    testCompileOnly("org.projectlombok:lombok:1.18.42")
+    testAnnotationProcessor("org.projectlombok:lombok:1.18.42")
 }
 
 tasks.test {
